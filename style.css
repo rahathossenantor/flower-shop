@@ -10,7 +10,7 @@
 /* common shared styles */
 #banner,
 #feature,
-#offer, .hot-deal-content {
+#offer, .hot-deal-content, #instagram {
     width: 80%;
     margin: 0 auto;
 }
@@ -182,4 +182,14 @@ header {
 }
 .spesial-text {
     color: #E55473;
+}
+
+/* instagram section styles */
+.instagram-gallery {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.gallery-image img {
+    width: 90%;
 }
