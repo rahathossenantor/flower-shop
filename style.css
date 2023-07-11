@@ -10,7 +10,7 @@
 /* common shared styles */
 #banner,
 #feature,
-#offer {
+#offer, .hot-deal-content {
     width: 80%;
     margin: 0 auto;
 }
@@ -135,7 +135,7 @@ header {
 
 /* offer section styles */
 #offer {
-    padding: 50px 30px;
+    padding: 50px 0;
     background-color: #F4F4F4;
     margin-top: 80px;
     border-radius: 5px;
@@ -145,7 +145,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    gap: 15px;
+    gap: 20px;
 }
 
 .offer-content img {
@@ -159,4 +159,27 @@ header {
     font-weight: 600;
     line-height: 35px;
     margin-top: 12px;
+}
+
+/* hot deal section styles */
+#hot-deal {
+    background-color: #FDF6F8;
+    margin-top: 80px;
+}
+.hot-deal-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 60px 0;
+}
+.hot-deal-text, .hot-deal-image {
+    width: 50%;
+}
+.hot-deal-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.spesial-text {
+    color: #E55473;
 }
