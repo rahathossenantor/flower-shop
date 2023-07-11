@@ -9,7 +9,8 @@
 
 /* common shared styles */
 #banner,
-#feature {
+#feature,
+#offer {
     width: 80%;
     margin: 0 auto;
 }
@@ -130,4 +131,32 @@ header {
 
 .flower-three {
     background-color: #E4ECDC;
+}
+
+/* offer section styles */
+#offer {
+    padding: 50px 30px;
+    background-color: #F4F4F4;
+    margin-top: 80px;
+    border-radius: 5px;
+}
+
+.offer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 15px;
+}
+
+.offer-content img {
+    display: inline-block;
+    width: 70px;
+}
+
+.offer-content h3 {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 35px;
+    margin-top: 12px;
 }
