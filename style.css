@@ -15,7 +15,8 @@
 .hot-deal-content,
 #instagram,
 .review-content,
-.latest-deals-content {
+.latest-deals-content,
+.footer-content {
     width: 80%;
     margin: 0 auto;
 }
@@ -266,4 +267,26 @@ header {
     margin-right: 15px;
     border: 0;
     border-radius: 5px;
+}
+
+/* footer styles */
+footer {
+    background-color: #111010;
+}
+.footer-content {
+    padding: 100px 0;
+}
+.footer-title {
+    color: white;
+}
+.footer-content p {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.footer-content p small {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
 }
