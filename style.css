@@ -7,10 +7,15 @@
     font-family: 'Lato', sans-serif;
 }
 
+
 /* common shared styles */
 #banner,
 #feature,
-#offer, .hot-deal-content, #instagram, .review-content {
+#offer,
+.hot-deal-content,
+#instagram,
+.review-content,
+.latest-deals-content {
     width: 80%;
     margin: 0 auto;
 }
@@ -47,10 +52,12 @@ p {
     margin-top: 80px;
 }
 
+
 /* header section */
 header {
     background-color: #FDEEF1;
 }
+
 
 /* banner section */
 #banner {
@@ -80,6 +87,7 @@ header {
     display: inline-block;
     width: 75%;
 }
+
 
 /* feature section */
 .feature-content {
@@ -133,6 +141,7 @@ header {
     background-color: #E4ECDC;
 }
 
+
 /* offer section styles */
 #offer {
     padding: 60px 0;
@@ -161,28 +170,35 @@ header {
     margin-top: 12px;
 }
 
+
 /* hot deal section styles */
 #hot-deal {
     background-color: #FDF6F8;
     margin-top: 80px;
 }
+
 .hot-deal-content {
     display: flex;
     align-items: center;
     gap: 20px;
     padding: 60px 0;
 }
-.hot-deal-text, .hot-deal-image {
+
+.hot-deal-text,
+.hot-deal-image {
     width: 50%;
 }
+
 .hot-deal-image {
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .spesial-text {
     color: #E55473;
 }
+
 
 /* instagram section styles */
 .instagram-gallery {
@@ -190,37 +206,64 @@ header {
     align-items: center;
     justify-content: space-between;
 }
+
 .gallery-image img {
     width: 90%;
 }
+
 
 /* client review section styles */
 #client-review {
     background-color: #FDF6F8;
 }
+
 .review-content {
     padding: 60px 0;
 }
+
 .review-container {
     display: flex;
-    align-items: center;
     justify-content: space-between;
     gap: 10px;
     margin-top: 30px;
 }
+
 .review {
     padding: 5px 10px;
 }
+
 .review img {
     width: 60px;
     height: 60px;
     border-radius: 50%;
 }
+
 .review h5 {
     font-size: 20px;
 }
+
 .customar-name {
     color: #272727;
     font-weight: 700;
     margin-bottom: 0;
+}
+
+
+/* latest deals section styles */
+.latest-deals-content {
+    background-image: url("./images/Rectangle9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0;
+}
+
+.latest-deals-content input[type="email"] {
+    width: 40%;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 11px 15px;
+    margin-right: 15px;
+    border: 0;
+    border-radius: 5px;
 }
