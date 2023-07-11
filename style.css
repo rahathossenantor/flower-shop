@@ -72,6 +72,10 @@ header {
     width: 50%;
 }
 
+.banner-text {
+    padding-bottom: 1.5rem;
+}
+
 .banner-text h1 {
     color: #272727;
     font-size: 55px;
@@ -92,7 +96,7 @@ header {
 
 /* feature section */
 .feature-content {
-    width: 70%;
+    width: 65%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -153,9 +157,11 @@ header {
 
 .offer-content {
     display: flex;
-    align-items: center;
     justify-content: space-evenly;
-    gap: 20px;
+}
+
+.offer {
+    width: 31%;
 }
 
 .offer-content img {
@@ -206,10 +212,12 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 20px;
+    margin-top: 30px;
 }
 
 .gallery-image img {
-    width: 90%;
+    width: 100%;
 }
 
 
@@ -231,6 +239,7 @@ header {
 
 .review {
     padding: 5px 10px;
+    width: 31%;
 }
 
 .review img {
